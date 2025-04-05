@@ -9,8 +9,6 @@ import Loader from "../components/Loader";
 import Message from "../components/Message";
 import { addToCart } from "../slices/cartSlice"
 import { useCreateReviewMutation } from "../slices/productApiSlice";
-import Meta from "../components/Meta";
-import { Helmet } from "react-helmet-async";
 function ProductScreen() {
     const { id: productId } = useParams();
     const dispatch = useDispatch();

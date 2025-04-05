@@ -13,7 +13,7 @@ import {
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import { Provider } from "react-redux";
 import store from "./store";
-import reportWebVitals from "./reportWebVitals";
+// import reportWebVitals from "./reportWebVitals";
 import "./assets/styles/bootstrap.custom.css";
 import "./assets/styles/index.css";
 import App from "./App";
@@ -30,7 +30,6 @@ import ProductListScreen from "./screens/Admin/ProductListScreen";
 import ProductEditScreen from "./screens/Admin/ProductEditScreen";
 import UserListScreen from "./screens/Admin/UserListScreen";
 import UserEditScreen from "./screens/Admin/UserEditScreen";
-import { HelmetProvider } from "react-helmet-async";
 // import "bootstrap/dist/css/bootstrap.min.css";
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -77,4 +76,4 @@ root.render(
       </Provider>
   </React.StrictMode>
 );
-reportWebVitals();
+// reportWebVitals();
